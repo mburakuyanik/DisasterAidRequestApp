@@ -1,0 +1,26 @@
+client signUp
+
+{
+  "email": "example@example.com",
+  "password": "password123"
+}
+
+client login
+
+{
+  "email": "example@example.com",
+  "password": "password123"
+}
+
+
+
+POST /admin/requirements/12345/status
+
+{
+  "status": "IN_PROGRESS"
+}
+
+GET /admin/requirements/12345
+
+GET /admin/requirements
+
